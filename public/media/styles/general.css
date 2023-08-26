@@ -1,0 +1,43 @@
+/* GENERAL */
+*,
+*:link,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+}
+
+.section--header {
+  color: #29575d;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section--subheader {
+  color: #076879;
+  text-align: center;
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
