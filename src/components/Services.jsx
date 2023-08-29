@@ -10,57 +10,55 @@ function Services() {
           love and we offer
         </h3>
         <div className="services--box">
-          <div>
-            <div className="services--text">
-              <img
+          <div className="services--text">
+            {/* <img
                 src="media/icons/serv-icons/consultation-small.png"
                 alt="consultation-icon"
-              />
-              <p>
-                We offer world-className advice and expertise to our clients
-                (your organisations), to help improve business performance. Our
-                work focuses on operations.
-                <br />
-              </p>
-            </div>
+              /> */}
+            <ion-icon
+              className="services--text__icon"
+              name="code-outline"
+            ></ion-icon>
+            <p>
+              We tailor web & software solutions to match your needs by
+              transforming ideas into digital realities.
+            </p>
           </div>
-          <div>
-            <div className="services--text">
-              <img
-                src="media/icons/serv-icons/software.png"
-                alt="software-icon"
-              />
-              <p>
-                Our Software Development solutions simplify the complicated
-                processes of designing an application or software in order to
-                meet a particular.
-              </p>
-            </div>
+
+          <div className="services--text">
+            {/* <img
+              src="media/icons/serv-icons/software.png"
+              alt="software-icon"
+            /> */}
+            <ion-icon name="library-outline"></ion-icon>
+            <p>
+              Our comprehensive enterprise-level training equips you for success
+              in a rapidly evolving landscape.
+            </p>
           </div>
-          <div>
-            <div className="services--text">
-              <img src="media/icons/serv-icons/web-lg.png" alt="web-dev-icon" />
-              <p>
-                We design and build cutting-edge Websites at a swift pace. We
-                typically build the appearance of the site and technical
-                aspects,.
-              </p>
-            </div>
+
+          <div className="services--text">
+            {/* <img src="media/icons/serv-icons/web-lg.png" alt="web-dev-icon" /> */}
+            <ion-icon name="hammer-outline"></ion-icon>
+            <p>
+              Maintenance is an essential part of building anything. We take
+              that seriously to ensure your systems are reliable and up to date
+            </p>
           </div>
-          <div>
-            <div className="services--text">
-              <img
-                src="media/icons/serv-icons/maintenance-lg.png"
-                alt="Maintenance-icon"
-              />
-              <p>
-                We offer stellar Maintenance Services that include routine
-                maintenance, repair and replacement of existing hardware parts
-                and software systems. And much more.
-              </p>
-            </div>
+
+          <div className="services--text">
+            {/* <img
+              src="media/icons/serv-icons/maintenance-lg.png"
+              alt="Maintenance-icon"
+            /> */}
+            <ion-icon name="person-add-outline"></ion-icon>{" "}
+            <p>
+              Customized programs that elevate your workforce's capabilities,
+              driving your business to new heights.
+            </p>
           </div>
-          <div>
+
+          {/* <div>
             <div className="services--text">
               <img
                 className="serv-text--img__bg"
@@ -91,7 +89,7 @@ function Services() {
                 websites
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

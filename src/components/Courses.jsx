@@ -185,8 +185,11 @@ function Courses() {
               setIsMore(!isMore);
             }}
           >
-            View More Courses{" "}
-            {isMore ? <span>&uarr;</span> : <span>&darr;</span>}
+            {isMore ? (
+              <span>View Less Courses &uarr;</span>
+            ) : (
+              <span>View More Courses &darr;</span>
+            )}
           </a>
         </div>
       </div>

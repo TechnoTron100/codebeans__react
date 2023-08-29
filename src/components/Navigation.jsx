@@ -103,7 +103,7 @@ function Navigation() {
               Courses
             </a>
           </li>
-          <li
+          {/* <li
             className="navigation__item"
             onClick={() => {
               setNavIsClicked(!isNavClicked);
@@ -113,7 +113,7 @@ function Navigation() {
             <a href="#projects" className="navigation__link">
               Projects
             </a>
-          </li>
+          </li> */}
           <li
             className="navigation__item"
             onClick={() => {

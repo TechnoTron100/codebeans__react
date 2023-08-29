@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer--contact">
         <h2 className="section--header footer--header">Contact Info</h2>
         <li>
-          <span>Phone and WhatsApp Number: </span>+234 916 768 3783
+          <span>Number: </span>+234 916 768 3783
         </li>
         <li>
           <span>Email: </span>support@codebeans.com.ng
@@ -16,9 +16,14 @@ function Footer() {
           <span>Address: </span>Bababa Plaza, No. I7, Bauchi State, Bauchi
           Nigeria
         </li>
-        <div className="footer--socials">
+      </div>
+      <div className="footer--socials">
+        <h2 className="section--header footer--header footer--socials__header">
+          Socials
+        </h2>
+        <div className="footer--socials__icons">
           <li>
-            <a href="#facebook">
+            <a href="https://www.facebook.com/profile.php?id=100094237904727">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -33,7 +38,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="#instagram">
+            <a href="https://www.instagram.com/_codebeans?r=nametag">
               <svg
                 className="footer-logo"
                 xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +54,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="#twitter">
+            <a href="https://twitter.com/_codebeans/status/1675887208299995136?s=19">
               <img
                 width="50"
                 height="50"
@@ -60,7 +65,14 @@ function Footer() {
           </li>
         </div>
       </div>
-      <img className="footer--img" src={logo} alt="Footer Logo" />
+      <div className="footer--cta">
+        <h2 className="section--header footer--header footer--cta__header">
+          Ready to go?
+        </h2>
+        <a href="#contact" className="hero--btn">
+          Get in Touch
+        </a>
+      </div>
     </footer>
   );
 }

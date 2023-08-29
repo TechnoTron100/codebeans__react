@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -41,3 +42,51 @@ body {
   margin-bottom: 4rem;
   font-family: "Times New Roman", Times, serif;
 }
+
+/* .footer {
+  background-color: #0489a0 !important;
+  height: 40vh !important;
+  width: 100vw !important;
+  padding: 2rem 0 !important;
+
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.footer--img {
+  width: 30% !important;
+  height: 20rem !important;
+  align-self: center !important;
+}
+
+.footer--contact {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1rem !important;
+  justify-content: center !important;
+  font-size: 1.5rem !important;
+}
+
+.footer--header {
+  text-align: left !important;
+  font-size: 4rem !important;
+}
+
+.footer--contact span {
+  color: #0f3460 !important;
+  font-weight: 800 !important;
+
+  line-height: 1.5 !important;
+  letter-spacing: 1px !important;
+}
+
+.footer--contact li {
+  list-style: none !important;
+  color: #fff !important;
+}
+
+.footer--socials {
+  display: flex !important;
+  gap: 2rem !important;
+  margin-top: 2rem !important;
+} */

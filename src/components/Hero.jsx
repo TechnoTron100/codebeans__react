@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 function Hero() {
   return (
@@ -20,7 +19,7 @@ function Hero() {
           galaxy, leap of faith, and
           <span className="hero--text__em">trusting our brand</span>
         </p>
-        <a href="#" className="hero--btn">
+        <a href="#contact" className="hero--btn">
           Get in Touch
         </a>
       </div>

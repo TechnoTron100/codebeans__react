@@ -18,7 +18,7 @@ function Contact() {
         <h2 className="section--header">Contact Us</h2>
         <h3 className="section--subheader">Let us know how we can help</h3>
         <div className="contact--section">
-          <div className="contact--image">&nbsp;</div>
+          {/* <div className="contact--image">&nbsp;</div> */}
           <form className="contact--form">
             <input
               type="text"
