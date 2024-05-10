@@ -89,6 +89,22 @@ function Team() {
               </figure>
             </div>
           </div>
+          <div className="team--member">
+            <div className="team--member__background">
+              <figure className="team--member__figure">
+                <img
+                  src="media/images/team/yoshi.jpg"
+                  alt="CEO"
+                  className="team--member__img"
+                />
+                <figcaption className="team--member__caption">
+                  Walid Mahmud
+                  <br />
+                  <span>Project Manager</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
       </div>
     </section>
